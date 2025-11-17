@@ -1,13 +1,12 @@
 package com.SampleTask;
 
-public class Add implements Calci{
+public class CalculatorImplementation implements Calci{
 
 	@Override
 	public int Addition(int a,int b) {
 		
-		return a+b;
+		return 0;
 		//System.out.println(a+b);
-		
 	}
 
 	@Override
