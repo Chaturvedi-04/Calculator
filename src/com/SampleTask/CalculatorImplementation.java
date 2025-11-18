@@ -5,8 +5,8 @@ public class CalculatorImplementation implements Calci{
 	@Override
 	public int Addition(int a,int b) {
 		
-		return 0;
-		//System.out.println(a+b);
+		int c = a+b;
+		return c;
 	}
 
 	@Override
