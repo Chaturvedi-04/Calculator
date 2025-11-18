@@ -11,7 +11,9 @@ public class CalculatorImplementation implements Calci{
 
 	@Override
 	public double Substraction(int a, int b) {
-		return 0;
+		
+		int c = a-b;
+		return c;
 	}
 
 	@Override

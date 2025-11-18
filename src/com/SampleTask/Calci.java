@@ -1,4 +1,4 @@
-package com.SampleTask;
+ package com.SampleTask;
 
 public interface Calci {
 
