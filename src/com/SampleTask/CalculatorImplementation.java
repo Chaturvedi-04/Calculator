@@ -26,7 +26,14 @@ public class CalculatorImplementation implements Calci{
 
 	@Override
 	public double Divison(int a, int b) {
-		return 0;
+		if(a!=0 || b != 0)
+		{
+			int c=a/b;
+			return c;
+		}
+		else
+			System.out.println("Cannot divide");
+			return 0;
 		
 	}
 
