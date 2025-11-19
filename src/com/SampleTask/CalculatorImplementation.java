@@ -18,7 +18,9 @@ public class CalculatorImplementation implements Calci{
 
 	@Override
 	public int Multiplication(int a, int b) {
-		return 0 ;
+		
+		int c = a*b;
+		return c;
 		
 	}
 
